@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styl.css" />
+    <title>Pogotowie komputerowe</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="banner"><img src="./img/animacja.gif" alt="" /></div>
+        <nav class="menu">
+          <a href="./index.html" class="menu-link">O nas</a
+          ><a href="./kontakt.html" class="menu-link">Kontakt</a>
+        </nav>
+      </header>
+      <main>
+        <section class="main-section about-section">
+          <h2 class="about-title">Kim jesteśmy?</h2>
+          <p class="about-text">
+            Jesteśmy firmą z wieloletnim doświadczeniem w zakresie IT.
+          </p>
+        </section>
+        <section class="main-section contact-section">
+          <h3 class="contact-title">Formularz kontaktowy</h3>
+          <form class="contact-form">
+            <table class="contact-form-table">
+              <tr class="table-row">
+                <td class="table-data"><label for="userName">Imię:</label></td>
+                <td class="table-data">
+                  <input type="text" name="userName" id="userName" />
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data">
+                  <label for="userSurname">Nazwisko:</label>
+                </td>
+                <td class="table-data">
+                  <input type="text" name="userSurname" id="userSurname" />
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data">
+                  <label for="userEmail">E-mail:</label>
+                </td>
+                <td class="table-data">
+                  <input type="text" name="userEmail" id="userEmail" />
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data">
+                  <label for="selectService">Usługa:</label>
+                </td>
+                <td class="table-data">
+                  <select type="select" name="selectService" id="selectService">
+                    <option value="repairComputer">naprawa komputera</option>
+                    <option value="resetData">odzyskiwanie danych</option>
+                    <option value="problemWithPrograms">
+                      problemy z oprogramowaniem
+                    </option>
+                    <option value="lanSettings">konfiguracja sieci LAN</option>
+                    <option value="other">inne</option>
+                  </select>
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data"></td>
+                <td class="table-data">
+                  <input
+                    type="checkbox"
+                    name="sendCopy"
+                    id="sendCopy"
+                    checked
+                  />
+                  <label for="sendCopy">Wyślij kopię wiadomości</label>
+                </td>
+              </tr>
+              <tr class="table-row">
+                <td class="table-data"></td>
+                <td class="table-data">
+                  <button class="form-button reset-button" type="reset">
+                    Resetuj</button
+                  ><button class="form-button submit-button" type="submit">
+                    Prześlij
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </form>
+          <p class="script-output"></p>
+        </section>
+        <section class="main-section characteristics-section">
+          <h2 class="characteristics-title">Co nas cechuje?</h2>
+          <p class="characteristics-text">
+            Doświadczenie, niezawodność, konkurencyjne ceny
+          </p>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer-text">Autor strony: <b>Pan Kot</b></p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

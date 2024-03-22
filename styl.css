@@ -1,0 +1,65 @@
+body {
+  background-color: #99ffcc;
+}
+h2,
+h3 {
+  text-align: center;
+}
+
+.wrapper {
+  margin: auto;
+
+  width: 1000px;
+}
+
+.banner {
+  height: 200px;
+
+  background-color: #99ff66;
+}
+.menu {
+  padding: 20px 0;
+
+  background-color: #66ccff;
+
+  text-align: center;
+}
+.menu-link {
+  margin: 50px;
+
+  color: #006666;
+  font-size: 200%;
+  text-decoration: none;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-section {
+  padding: 10px;
+
+  width: 310px;
+}
+
+.footer {
+  padding: 20px;
+
+  height: 30px;
+
+  background-color: #66ccff;
+
+  color: #006666;
+  text-align: right;
+}
+.footer-text {
+  margin: 0;
+}
+
+/* Contact page */
+
+.form-button.reset-button {
+  background-color: #ff0000;
+}
+.form-button.submit-button {
+  background-color: #00ff00;
+}
